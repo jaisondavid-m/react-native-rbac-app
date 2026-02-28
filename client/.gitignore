@@ -1,0 +1,106 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Node
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Keep lock files (recommended for teams)
+# package-lock.json
+# yarn.lock
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Metro
+# =========================
+.metro-health-check*
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/.cxx/
+*.iml
+*.hprof
+*.keystore
+!debug.keystore
+.kotlin/
+
+# =========================
+# iOS / Xcode
+# =========================
+ios/build/
+ios/DerivedData/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.moved-aside
+*.hmap
+*.ipa
+**/.xcode.env.local
+
+# =========================
+# CocoaPods
+# =========================
+ios/Pods/
+vendor/bundle/
+
+# =========================
+# Fastlane
+# =========================
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# =========================
+# Bundle Artifacts
+# =========================
+*.jsbundle
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Yarn (Berry)
+# =========================
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
